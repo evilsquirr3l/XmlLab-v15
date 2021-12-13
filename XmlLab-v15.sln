@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlLab-v15", "XmlLab-v15\XmlLab-v15.csproj", "{6EAC3C06-DDD1-40A3-9144-AF863D8A70FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{6C33693C-9D24-45F1-9B98-F2F964C41219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EAC3C06-DDD1-40A3-9144-AF863D8A70FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAC3C06-DDD1-40A3-9144-AF863D8A70FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAC3C06-DDD1-40A3-9144-AF863D8A70FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAC3C06-DDD1-40A3-9144-AF863D8A70FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C33693C-9D24-45F1-9B98-F2F964C41219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C33693C-9D24-45F1-9B98-F2F964C41219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C33693C-9D24-45F1-9B98-F2F964C41219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C33693C-9D24-45F1-9B98-F2F964C41219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

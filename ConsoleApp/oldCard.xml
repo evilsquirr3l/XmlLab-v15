@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OldCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Id>0</Id>
+    <Country>
+        <Id>0</Id>
+        <Name>Ukraine</Name>
+    </Country>
+    <Theme>City</Theme>
+    <IsSent>false</IsSent>
+    <CardType>Congratulatory</CardType>
+    <PublishingYear>0</PublishingYear>
+    <Author/>
+    <Valuable>Historic</Valuable>
+</OldCard>

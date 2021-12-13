@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OldCard" type="OldCardType"/>
+  <xs:complexType name="CountryType">
+    <xs:sequence>
+      <xs:element name="Id">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="Name"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OldCardType">
+    <xs:sequence>
+      <xs:element name="Id">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="CountryType" name="Country"/>
+      <xs:element type="xs:string" name="Theme"/>
+      <xs:element type="xs:string" name="IsSent"/>
+      <xs:element type="xs:string" name="CardType"/>
+      <xs:element name="PublishingYear">
+      <xs:simpleType>
+        <xs:restriction base="xs:integer">
+          <xs:minInclusive value="1800" />
+        </xs:restriction>
+      </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="Author"/>
+      <xs:element type="xs:string" name="Valuable"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

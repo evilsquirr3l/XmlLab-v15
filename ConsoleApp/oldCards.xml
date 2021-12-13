@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OldCards>
+    <OldCard Id="1">
+        <Id>2</Id>
+        <Country>
+            <Id>1</Id>
+            <Name>Ukraine</Name>
+        </Country>
+        <Theme>City</Theme>
+        <IsSent>false</IsSent>
+        <CardType>Congratulatory</CardType>
+        <PublishingYear>2000</PublishingYear>
+        <Author/>
+        <Valuable>Historic</Valuable>
+    </OldCard>
+    <OldCard Id="2">
+        <Id>2</Id>
+        <Country>
+            <Id>2</Id>
+            <Name>France</Name>
+        </Country>
+        <Theme>Nature</Theme>
+        <IsSent>true</IsSent>
+        <CardType>Usual</CardType>
+        <PublishingYear>2020</PublishingYear>
+        <Author/>
+        <Valuable>Collection</Valuable>
+    </OldCard>
+</OldCards>
